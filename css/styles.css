@@ -13,8 +13,7 @@
 #recherche
 {
     border: 5px black solid;
-    border-radius: 10px;
-    border-collapse: 3px;
+    border-radius: 5px;
 }
 form.searchbar input[type=search] 
 {
