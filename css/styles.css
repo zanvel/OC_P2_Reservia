@@ -12,14 +12,14 @@
 }
 #recherche
 {
-    border: 5px black solid;
+    border: 2px black solid;
     border-radius: 5px;
 }
 form.searchbar input[type=search] 
 {
     padding: 10px;
     font-size: 17px;
-    border: 1px solid white;
+    border: 1px none white;
     float: center;
     width: 20%;
     background: white;
