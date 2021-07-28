@@ -14,7 +14,7 @@
 {
     border: 5px black solid;
     border-radius: 10px;
-    border-width: 0px;
+    border-collapse: 3px;
 }
 form.searchbar input[type=search] 
 {
