@@ -4,46 +4,37 @@
     font-weight: normal;
     font-style: normal;
 }
-
 #bloc_page
 {
     width: 900px;
     margin:auto;
 }
-#recherche
-{
-    border: 2px black solid;
-    border-radius: 5px;
-}
+#section_search
+  {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 4px black solid;
+    border-radius: 10px;
+  }
 form.searchbar input[type=search] 
-{
+  {
+    flex-direction: column;
+    order: 1;
     padding: 10px;
     font-size: 17px;
-    border: none;
-    float: center;
-    width: 20%;
     background: white;
+    border: none;
   }
   
   /* Style the submit button */
   form.searchbar button {
-    float: center;
-    width: 20%;
+    flex-direction: column;
+    order: 2;
     padding: 10px;
     background: #0065FC;
     color: white;
     font-size: 17px;
-    border: 1px solid grey;
+    border: none;
     cursor: pointer;
-  }
-  
-  form.searchbar button:hover {
-    background: #0b7dda;
-  }
-  
-  /* Clear floats */
-  form.searchbar::after {
-    content: "";
-    clear: both;
-    display: table;
   }
