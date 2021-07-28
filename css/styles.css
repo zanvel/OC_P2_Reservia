@@ -30,7 +30,7 @@ form.searchbar input[type=search]
     color: white;
     font-size: 17px;
     border: 1px solid grey;
-    border-radius: 2px; /* Prevent double borders */
+    border-radius: 10px; /* Prevent double borders */
     cursor: pointer;
   }
   
