@@ -22,14 +22,14 @@ form.searchbar input[type=text] {
   
   /* Style the submit button */
   form.searchbar button {
-    float: left;
+    float: right;
     width: 20%;
     padding: 10px;
     background: #2196F3;
     color: white;
     font-size: 17px;
     border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
+    border-right: none; /* Prevent double borders */
     cursor: pointer;
   }
   
