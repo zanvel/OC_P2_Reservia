@@ -10,7 +10,10 @@
     width: 900px;
     margin:auto;
 }
-
+form.searchbar
+{
+    border-radius: 10px;
+}
 form.searchbar input[type=search] 
 {
     padding: 10px;
@@ -42,5 +45,4 @@ form.searchbar input[type=search]
     content: "";
     clear: both;
     display: table;
-    border-radius: 10px;
   }
