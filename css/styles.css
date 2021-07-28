@@ -9,6 +9,7 @@
     width: 900px;
     margin:auto;
 }
+
 #section_search
   {
     width: 350px;
@@ -28,7 +29,8 @@ form.searchbar input[type=search]
   }
   
   /* Style the submit button */
-  form.searchbar button {
+form.searchbar button 
+  {
     flex-direction: column;
     order: 2;
     padding: 10px;
