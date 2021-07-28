@@ -17,13 +17,13 @@ form.searchbar input[type=search]
     font-size: 17px;
     border: 1px solid grey;
     float: center;
-    width: 80%;
+    width: 20%;
     background: #f1f1f1;
   }
   
   /* Style the submit button */
   form.searchbar button {
-    float: right;
+    float: center;
     width: 20%;
     padding: 10px;
     background: #2196F3;
