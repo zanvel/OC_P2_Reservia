@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/raleway.css">
-    <link href="css/min-900.css" media="all and (min-width: 900px)" rel="stylesheet">
-    <link href="css/min-1200.css" media="all and (min-width: 1200px)" rel="stylesheet">
-        <title>Reservia</title>
-</head>
-<body>
-    <div id="bloc_page">
-        <header>
-            <div class="header">
-                <img src="images/logo/Reservia.svg" alt="logo reservia" class="logo">
-                <a href class="inscription">S'inscrire</a>
-                <nav>
-                    <a href="locations">Hébergements</a>
-                    <a href="activites">Activités</a>
-                </nav>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="normalize" href="css/normalize.css">
+        <link href="css/min-900.css" media="all and (min-width: 900px)" rel="stylesheet">
+        <link href="css/min-1200.css" media="all and (min-width: 1200px)" rel="stylesheet">
+            <title>Reservia</title>
+    </head>
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="logo">
+                    <img src="images/logo/Reservia.svg" alt="logo reservia" class="logo">
+                </div>
+                   <nav>
+                        <ul>
+                            <li> <a href="#inscription">S'inscrire</a></li>
+                            <li><a href="#locations">Hébergements</a></li>
+                            <li><a href="#activites">Activités</a></li>
+                    </nav>
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <h2>En plein centre ville ou en pleine nature</h2>
             </header>
-    </div>
-</body>
+            <main>
+                <i class="fas fa-search"></i>                <input type="search" id="recherche">
+                <label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+
+<button>Search</button>
+
+            </main>
+        </div>
+    </body>
 </html>
