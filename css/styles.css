@@ -13,7 +13,7 @@
 #recherche
 {
     border: 2px black solid;
-    border-width: inherit;
+    border-width: 20px;
     border-radius: 5px;
 }
 form.searchbar input[type=search] 
