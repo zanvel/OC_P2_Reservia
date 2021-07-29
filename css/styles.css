@@ -9,16 +9,28 @@
     width: 900px;
     margin:auto;
 }
-#searchForm {
+#searchBar {
   display: flex;
   align-items: stretch;
-  height: 40px;
+  height: 46px;
+  border: none;
 }
-#searchForm i 
+#searchBar i 
 {
-  background-color: lightgray;
-  padding: 10px;
+  background-color: #f2f2f2;
+  padding: 15px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-/* mettre la couleur et le border top & bottom sur le bouton rechercher */
+#searchBar input
+{
+  font-weight: bold;
+}
+#searchBar button
+{
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
