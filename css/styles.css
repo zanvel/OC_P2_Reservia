@@ -13,21 +13,23 @@
   display: flex;
   align-items: stretch;
   height: 46px;
-  border: none;
-}
+  }
 #searchBar i 
 {
   background-color: #f2f2f2;
-  padding: 15px;
+  padding: 16px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 #searchBar input
 {
   font-weight: bold;
+  border-style: solid;
+  border-color: #f2f2f2;
 }
 #searchBar button
 {
+  border: none;
   background-color: #0065FC;
   color: white;
   font-weight: bold;
