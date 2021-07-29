@@ -26,6 +26,10 @@ align-items: center;
 {
   width: 45%;
 }
+.decoration-none
+{
+  text-decoration: none;
+}
 .colorLiens_Heb_et_Ac
 {
   color: #0065fc;
