@@ -1,26 +1,45 @@
 *
 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-#bloc_page
-{
-    width: 900px;
-    margin:auto;
-}
-header
+.headf-center
 {
   display:flex;
   justify-content: center;
   align-items: center;
 }
-nav
+.headf-around
+{
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+.headf-between
+{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sizeLiens
+{
+  width: 45%;
+}
+.colorLiens_Heb_et_Ac
+{
+  color: #0065fc;
+}
+.colorLiens_Act
+{
+  color: black;
+}
+/*nav
 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+}*/
 
 
 
