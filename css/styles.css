@@ -15,10 +15,37 @@ header
   justify-content: center;
   align-items: center;
 }
-#headCont .headCR
+nav
 {
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*code correct mais pour plus tard
 #searchBar {
   display: flex;
   align-items: stretch;
@@ -45,4 +72,4 @@ header
   font-weight: bold;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-}
+}*/
