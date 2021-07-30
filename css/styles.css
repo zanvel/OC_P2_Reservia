@@ -23,6 +23,34 @@ align-items: center;
   justify-content: space-between;
   align-items: center;
 }
+.colorBleuF
+{
+  color: #0065fc;
+}
+.colorBleuC
+{
+  color: #deebff;
+}
+.colorGris
+{
+  color: #f2f2f2;
+}
+.bgBleuF
+{
+  background-color: #0065fc;
+}
+.bgBleuC
+{
+  background-color: #deebff;
+}
+.bgGris
+{
+  background-color: #f2f2f2;
+}
+.bold
+{
+  font-weight: bold;
+}
 /*Nav*/
 .sizeNav
 {
@@ -37,6 +65,10 @@ align-items: center;
   width: 140px;
   height: 99px; 
 }
+.colorAct
+{
+  color:black
+}
 .borderNav1
 {
   border-top: #0065fc solid 1px;
@@ -49,20 +81,10 @@ align-items: center;
 {
   text-decoration: none;
 }
-.colorLiens_Heb_et_Ac
-{
-  color: #0065fc;
-}
-.colorLiens_Act
-{
-  color: black;
-}
 .margeLogo
 {
   margin-bottom: 7px;
 }
-
-
 /*code correct mais pour plus tard
 #searchBar {
   display: flex;
