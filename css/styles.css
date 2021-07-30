@@ -51,6 +51,10 @@ align-items: center;
 {
   font-weight: bold;
 }
+.borderN
+{
+  border: none;
+}
 /*Nav*/
 .sizeNav
 {
@@ -106,7 +110,6 @@ align-items: center;
 }
 #searchBar button
 {
-  border: none;
   background-color: #0065FC;
   color: white;
   font-weight: bold;
