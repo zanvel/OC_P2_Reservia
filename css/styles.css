@@ -205,7 +205,61 @@ align-items: center;
 }
 .imgHeb1
 {
-  background-image: url();
+  background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.imgHeb2
+{
+  background-image: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.imgHeb3
+{
+  background-image: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.imgHeb4
+{
+  background-image: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.imgHeb5
+{
+  background-image: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.imgHeb6
+{
+  background-image: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
