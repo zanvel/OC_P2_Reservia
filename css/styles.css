@@ -90,6 +90,7 @@ align-items: center;
   margin-bottom: 7px;
 }
 /*Header*/
+/*1-Barre de recherche*/
 .searchBar 
 {
   width: 400px;
@@ -124,7 +125,7 @@ align-items: center;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-/*filtres*/
+/*2-Les filtres*/
 .margeFiltre
 {
   margin-top: 50px;
@@ -173,7 +174,7 @@ align-items: center;
   color: #0065fc;
   background-color: #deebff;
 }
-/*info*/
+/*3-info*/
 .info
 {
   display: flex;
