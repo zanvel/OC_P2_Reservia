@@ -96,7 +96,7 @@ align-items: center;
   border-radius: 10px;
   border: 1px solid #f2f2f2;
 }
-.iSize
+.IcSize
 {
   height: 50px;
   width: 50px;
@@ -123,4 +123,52 @@ align-items: center;
   color: white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+/*filtres*/
+.margeFiltre
+{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.filtre
+{
+  display: flex;
+  align-items: center;
+}
+.margeFiltreTitre
+{
+  margin-right: 20px;
+}
+.filtreIcText
+{
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.filtreIcText:hover > .filtreText
+{
+  color: #0065fc;
+}
+.filtreIcText:hover > .filtreIc
+{
+  color: white;
+  background-color: #0065fc;
+}
+.filtreText
+{
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.filtreIc
+{
+  margin-left: -2px;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065fc;
+  background-color: #deebff;
 }
