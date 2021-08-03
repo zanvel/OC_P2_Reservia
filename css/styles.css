@@ -23,6 +23,25 @@ align-items: center;
   justify-content: space-between;
   align-items: center;
 }
+.flex-col-center
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col-around
+{
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.flex-col-between
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .colorBleuF
 {
   color: #0065fc;
@@ -203,6 +222,31 @@ align-items: center;
   margin-right: 20px;
   border-radius: 10px;
 }
+.blocHeb
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bloc1
+{
+  margin-bottom: 10px;
+}
+.bloc2
+{
+  margin-top: 10px;
+}
+.boxHeb
+{
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+.boxHebInfo
+{
+  width: 90%;
+}
 .imgHeb1
 {
   background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
@@ -262,4 +306,10 @@ align-items: center;
   height: 120px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+/*Populaires*/
+.blocPop
+{
+  padding-left: 20px;
+  padding-right: 20px;
 }
