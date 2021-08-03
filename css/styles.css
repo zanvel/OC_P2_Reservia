@@ -313,3 +313,49 @@ justify-content: space-around;
   padding-left: 20px;
   padding-right: 20px;
 }
+.boxMargin
+{
+  margin-bottom: 22px;
+}
+.boxPop
+{
+  background-color: white;
+  height: auto;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+}
+.boxPopInfo
+{
+  width: 60%;
+  padding-left: 5%;
+}
+.imgPop1
+{
+  background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: 160px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.imgPop2
+{
+  background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: 160px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.imgPop3
+{
+  background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: 160px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
