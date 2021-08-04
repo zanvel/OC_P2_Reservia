@@ -509,3 +509,11 @@ justify-content: space-around;
 {
   margin-right: 15%;
 }
+.lienFooter
+{
+  color: black;
+}
+.divLienFooter
+{
+  height: 30px;
+}
