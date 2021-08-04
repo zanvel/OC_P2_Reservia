@@ -101,7 +101,7 @@ justify-content: space-around;
   border-top: solid 1px #0065fc;
   cursor: pointer;
 }
-.borderNav:hover>a
+.borderNav:hover > a
 {
   color: #0065fc;
 }
@@ -148,6 +148,11 @@ justify-content: space-around;
   color: white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.searchButton:hover
+{
+  color: #0065fc;
+  background-color: #f2f2f2;
 }
 /*2-Les filtres*/
 .margeFiltre
@@ -248,6 +253,11 @@ justify-content: space-around;
   padding: 1%;
   border-radius: 20px;
 }
+.boxHeb:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
 .boxHebInfo
 {
   width: 90%;
@@ -329,6 +339,11 @@ justify-content: space-around;
   padding: 1% 0 1% 1%;
   border-radius: 20px;
 }
+.boxPop:hover
+{
+  cursor: pointer;
+  transform: scale(1.05);
+}
 .boxPopInfo
 {
   width: 60%;
@@ -387,12 +402,21 @@ justify-content: space-around;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
+.boxAct:hover
+{
+  cursor: pointer;
+  transform: scale(1.05);
+}
 .boxActSmall
 {
   width: 100%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
-
+}
+.boxActSmall:hover
+{
+  cursor: pointer;
+  transform: scale(1.03);
 }
 /*fin box*/
 .hauteuritre
