@@ -88,17 +88,22 @@ justify-content: space-around;
   width: 140px;
   height: 99px; 
 }
-.colorAct
+.colorLien
 {
   color:black
 }
-.borderNav1
+.borderNav
 {
-  border-top: #0065fc solid 1px;
+  border-top: solid 1px transparent;
 }
-.borderNav23
+.borderNav:hover
 {
-  border-top: transparent solid 1px;
+  border-top: solid 1px #0065fc;
+  cursor: pointer;
+}
+.borderNav:hover>a
+{
+  color: #0065fc;
 }
 .decoration-none
 {
