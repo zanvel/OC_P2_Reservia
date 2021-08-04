@@ -5,6 +5,10 @@
   font-weight: normal;
   font-style: normal;
 }
+*
+{
+  margin-left: 8px;
+}
 .flex-center
 {
   display:flex;
@@ -221,14 +225,15 @@ justify-content: space-around;
 .sizeHeb
 {
   flex: 2;
-  height: 650px;
+  height: 680px;
   margin-right: 20px;
+  margin-bottom: 30px;
   border-radius: 10px;
 }
 .sizePop
 {
   flex: 1;
-  height: 650px;
+  height: 680px;
   margin-right: 20px;
   border-radius: 10px;
 }
