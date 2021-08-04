@@ -5,6 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
+body
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
 .flex-center
 {
   display:flex;
@@ -237,20 +243,15 @@ justify-content: space-around;
   padding-left: 20px;
   padding-right: 20px;
 }
-.bloc1
+.flex-wrap
 {
-  margin-bottom: 10px;
-}
-.bloc2
-{
-  margin-top: 10px;
+  flex-wrap: wrap;
 }
 .boxHeb
 {
-  width: 30%;
+  width: 33%;
   height: auto;
   background-color: white;
-  padding: 1%;
   border-radius: 20px;
 }
 .boxHeb:hover
@@ -517,3 +518,5 @@ justify-content: space-around;
 {
   height: 30px;
 }
+/*seseion mentorat
+pour les espaces utilise rem avec padding*/
