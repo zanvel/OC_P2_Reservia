@@ -225,15 +225,14 @@ justify-content: space-around;
 .sizeHeb
 {
   flex: 2;
-  height: 680px;
+  height: 650px;
   margin-right: 20px;
-  margin-bottom: 30px;
   border-radius: 10px;
 }
 .sizePop
 {
   flex: 1;
-  height: 680px;
+  height: 650px;
   margin-right: 20px;
   border-radius: 10px;
 }
