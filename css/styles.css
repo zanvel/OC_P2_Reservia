@@ -72,7 +72,6 @@ justify-content: space-around;
 {
   flex-wrap: wrap;
 }
-
 .colorBleuF
 {
   color: #0065fc;
@@ -248,17 +247,96 @@ justify-content: space-around;
   border-radius: 25px;
   margin-right: 5px;
 }
-/*Hébergements*/
+/*Hébergements et Populaires*/
 .heb, .pop {
   background-color: #f2f2f2;
   padding: 2rem;
   border-radius: 1.5rem;
   margin: 0.5rem;
 }
+.carteTexte
+{
+  margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+}
+.carteNote
+{
+  margin: 0 0.75rem 0.25rem 0.75rem;
+  font-size: 0.9rem
+}
+.flexHebPop
+{
+  display:flex;
+  flex-direction: row-reverse;
+}
+/*-----Populaires------*/
+.graph {
+  color: #000000;
+}
+.popPrinc 
+{
+  width: 100%;
+}
+.popTitre
+{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.popCont
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items:center;
+  align-content:center;
+}
+.cartePop 
+{
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 15px #e3e3e3;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 1rem;
+}
+.cartePopLien 
+{
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.cartePopImage 
+{
+  position: relative;
+  min-height: 100%;
+  width: 50%;
+}
+.cadreImage 
+{
+  height: 7rem;
+  object-fit: cover;
+  max-width: 490px;
+  width: 100%;
+  max-height: 100%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.cartePopCont 
+{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+/*Hébergements*/
 .hebTitre {
   margin: 0;
 }
-
 .hebCont
  {
   display: flex;
@@ -269,14 +347,14 @@ justify-content: space-around;
 .carteHeb
 {
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.25rem;
   border-radius: 1.5rem;
   box-shadow: 0 0 15px #e3e3e3;
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
   height: 30%;
-  margin: 10px;
+  margin: 0.75rem;
   width: 30%;
 }
 .carteHeb:hover
@@ -292,14 +370,6 @@ width: 100%;
 max-height: 100%;
 border-radius: 1rem 1rem 0 0;
 }
-.carteHebTexte
-{
-  margin: 0.25rem 0.75rem 0.25rem 0.75rem;
-}
-.carteHebNote
-{
-  margin: 0 0.75rem 0.25rem 0.75rem;
-}
 .carteHebCont 
 {
   display:flex;
@@ -313,204 +383,7 @@ border-radius: 1rem 1rem 0 0;
   font-size: 1rem;
   margin-top: 1rem;
 }
-/*-----Populaires------*/
-.graph {
-  color: #000000;
-}
-.popularMain 
-{
-  width: 100%;
-}
-.popTitre
-{
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-}
-.Card {
-  background-color: white;
-  padding: 0.5rem;
-  border-radius: 1.5rem;
-  box-shadow: 0 0 15px #e3e3e3;
-  transition-duration: 0.1s;
-  cursor: pointer;
-  box-sizing: border-box;
-  height: 100%;
-  margin: 1rem;
-}
-.cardLink 
-{
-  display: flex;
-  align-items: stretch;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-}
-.cardImage 
-{
-  position: relative;
-  min-height: 100%;
-  width: 50%;
-}
-.cardImg 
-{
-  border-radius: 1rem 0 0 1rem;
-  position: absolute;
-  min-width: 100%;
-  max-width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-.cardContainer 
-{
-  display:flex;
-  flex-direction: column;
-  width: 50%;
-}
 
-/*récup le code du mec github
-.sizeHeb
-{
-  flex: 2;
-  height: 650px;
-  margin-right: 20px;
-  border-radius: 10px;
-}
-.sizePop
-{
-  flex: 1;
-  height: 650px;
-  margin-right: 20px;
-  border-radius: 10px;
-}
-.blocHeb
-{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.boxHeb
-{
-  width: 33%;
-  height: auto;
-  background-color: white;
-  border-radius: 20px;
-}
-.boxHeb:hover
-{
-  cursor: pointer;
-  transform: scale(1.1);
-}
-.boxHebInfo
-{
-  width: 90%;
-}
-/*.imgHeb2
-{
-  background-image: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-.imgHeb3
-{
-  background-image: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-.imgHeb4
-{
-  background-image: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-.imgHeb5
-{
-  background-image: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-.imgHeb6
-{
-  background-image: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}*/
-/*Populaires
-.blocPop
-{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.boxMargin
-{
-  margin-bottom: 22px;
-}
-.boxPop
-{
-  background-color: white;
-  height: auto;
-  padding: 1% 0 1% 1%;
-  border-radius: 20px;
-}
-.boxPop:hover
-{
-  cursor: pointer;
-  transform: scale(1.05);
-}
-.boxPopInfo
-{
-  width: 60%;
-  padding-left: 5%;
-}
-.imgPop1
-{
-  background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 35%;
-  height: 160px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-.imgPop2
-{
-  background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 35%;
-  height: 160px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-.imgPop3
-{
-  background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 35%;
-  height: 160px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}*/
 /*Activités*/
 .Activités
 {
