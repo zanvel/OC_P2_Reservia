@@ -27,7 +27,7 @@ h4 {
 }
 p
 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 body
 {
@@ -299,7 +299,8 @@ justify-content: space-around;
   align-items:center;
   align-content:center;
 }
-.cartePop 
+/*revoir la carte pas à pas décortiquer*/
+/*.cartePop 
 {
   background-color: white;
   padding: 10px;
@@ -316,31 +317,24 @@ justify-content: space-around;
   height: 100%;
   width: 100%;
 }
-.cartePopImage 
+.cartePopImage
 {
-  position: relative;
-  min-height: 100%;
-  width: 50%;
-}
-.cadreImage 
-{
-  height: 100px;
-  object-fit: cover;
-  width: 100px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+
 }
 .cartePopCont 
 {
   display:flex;
   flex-direction: column;
   width: 50%;
-}
+}*/
 
 /*Hébergements*/
 .heb
 {
-  height: auto;
   width: 600px;
 }
 .hebTitre {
