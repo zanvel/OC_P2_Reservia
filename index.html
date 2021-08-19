@@ -10,9 +10,7 @@
         <script src="https://kit.fontawesome.com/426f51973a.js" crossorigin="anonymous"></script>
         <link rel="normalize" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
-        <!--<link href="css/min-900.css" media="all and (min-width: 900px)" rel="stylesheet">
-        <link href="css/min-1200.css" media="all and (min-width: 1200px)" rel="stylesheet">-->
-            <title>Reservia</title>
+        <title>Reservia</title>
     </head>
     <body>
         <nav class="sizeNav">
@@ -40,7 +38,7 @@
         <header>
             <section>
                 <div>     
-                    <h1 class="bold">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
                 </div>
                 <div class="searchBar flex-center">
@@ -75,68 +73,75 @@
                 </div>
             </section>
         </header>
-        <div class="flexHebPop">
+        <main id="HebPop">
             <!--Populaires-->
-            <aside class="pop">
-                <div class="popPrinc">
-                    <h2 class="popTitre"> Les plus populaires <i class="fas fa-chart-line fa-2x"></i></h2>
-                    <div class="popCont">
-                        <article class="cartePop">
-                            <div class="cartePopLien" href="#">
-                                <div class="cartePopImage">
-                                    <img class="cadreImage" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
-                                </div>
-                                <div class="cartePopCont">
-                                    <h4>Hôtel Le soleil du matin</h4>
-                                    <p class="carteTexte">Nuit à partir de <b class="bold">126€</b></p>
-                                    <div class="carteNote">
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="cartePop">
-                            <div class="cartePopLien" href="#">
-                                <div class="cartePopImage">
-                                    <img class="cadreImage" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au cœur de l'eau Chambres d'hôtes">
-                                </div>
-                                <div class="cartePopCont">
-                                    <h4>Au cœur de l'eau Chambres d'hôtes</h4>
-                                    <p class="carteTexte">Nuit à partir de <b class="bold">71€</b></p>
-                                    <div class="carteNote">
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorGris"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="cartePop">
-                            <div class="cartePopLien" href="#">
-                                <div class="cartePopImage">
-                                    <img class="cadreImage" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et blanc">
-                                </div>
-                                <div class="cartePopCont">
-                                    <h4>Hôtel Tout bleu et blanc</h4>
-                                    <p class="carteTexte">Nuit à partir de <b class="bold">68€</b></p>
-                                    <div class="carteNote">
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorBleuF"></i>
-                                        <i class="fas fa-star colorGris"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+            <aside id="populaires">
+                <div class="popTitre">
+                    <h2> Les plus populaires</h2>
+                    <i class="fas fa-chart-line fa-2x"></i>
                 </div>
+                    <div class="popCont">
+                        <a href="#">
+                            <div class="popCartes">
+                                <div >
+                                    <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
+                                </div>
+                                <div class="popCartesCont">
+                                    <div class="CartesTexte">
+                                        <h4>Hôtel Le soleil du matin</h4>
+                                        <p>Nuit à partir de <b>126€</b></p>
+                                    </div>
+                                    <div class="cartesEtoiles">
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="popCartes">
+                                <div >
+                                    <img src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au cœur de l'eau Chambres d'hôtes">
+                                </div>
+                                <div class="popCartesCont">
+                                    <div class="CartesTexte">
+                                        <h4>Au cœur de l'eau Chambres d'hôtes</h4>
+                                        <p>Nuit à partir de <b>71€</b></p>
+                                    </div>
+                                    <div class="cartesEtoiles">
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="popCartes">
+                                <div >
+                                    <img src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et blanc">
+                                </div>
+                                <div class="popCartesCont">
+                                    <div class="CartesTexte">
+                                        <h4>Hôtel Tout bleu et blanc</h4>
+                                        <p>Nuit à partir de <b>68€</b></p>
+                                    </div>
+                                    <div class="cartesEtoiles">
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorBleuF"></i>
+                                        <i class="fas fa-star colorGris"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
             </aside>
             <!--Hebergements-->
             <section id="hebergements" class="heb flex-around"><!---l'id sert uniquement pour l'ancrage-->
@@ -231,7 +236,7 @@
                     <button id="afficher_plus">Afficher plus</button>
                 </div>
             </section>
-        </div>
+        </main>
         <!--Axtivités-->
         <section id="activites" class="Act"><!---l'id sert uniquement pour l'ancrage-->
             <h2 class="bold">Activités à Marseille</h2>
