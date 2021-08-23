@@ -121,8 +121,13 @@ justify-content: space-around;
 .margeLogo
 {
   margin-bottom: 7px;
+  padding-left: 20px;
 }
 /*Header*/
+header
+{
+  padding-left: 20px;
+}
 /*1-Barre de recherche*/
 .searchBar 
 {
