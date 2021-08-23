@@ -357,25 +357,87 @@ justify-content: space-around;
 /*Activités*/
 .actTitre
 {
-  margin-top: 6rem;
+  margin-top: 60px;
 }
 .actCont
 {
   display: flex;
   justify-content: space-between;
 }
-.vieuxp
-{
-  text-decoration: none;
-  width: 22%;
-  border-radius: 2rem;
-  box-shadow: 2px 2px 2px 2px #f2f2f2;
-  border: 2px solid #f2f2f2;
-}
 .actCont h4
 {
-  padding-left: 1rem;
+  padding-left: 10px;
+  font-weight: bold;
 }
+.actCont .act1, .actCont .act4 
+{
+  text-decoration: none;
+  color: black;
+  width: 22%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 4px solid #f2f2f2;
+}
+.act1Cont img
+{
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.act2_3
+{
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.act2_3 .act2
+{
+  width: 100%;
+  height: 55%;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #F2F2F2;
+  border: 4px solid #f2f2f2;
+}
+.act2Cont
+{
+  width: 100%;
+}
+.act2Cont img
+{
+  width: 100%;
+  height: 17vw;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.act3
+{
+  width: 100%;
+}
+.act2_3 .act3
+{
+  width: 100%;
+  height: 35%;
+  text-decoration-line: none;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #F2F2F2;
+  border: 2px solid #F2F2F2;
+}
+.act3Cont img
+{
+  width: 100%;
+  height: 9vw;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+
+
 
 
 
