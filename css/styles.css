@@ -77,6 +77,12 @@ justify-content: space-around;
 {
   border: none;
 }
+#HebPop, #activites
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /*Nav*/
 .sizeNav
 {
