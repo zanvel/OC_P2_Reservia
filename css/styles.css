@@ -134,6 +134,7 @@ header
 {
   display: flex;
   margin-bottom: 15px;
+  padding-left: 20px;
 }
 .barreRech span i
 {
@@ -171,67 +172,80 @@ header
   background-color: #f2f2f2;
 }
 /*2-Les filtres*/
-.margeFiltre
-{
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-.filtre
+.filBarre
 {
   display: flex;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
-.margeFiltreTitre
+.filTitre h3
 {
-  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.filtreIcText
+.categories
 {
-  border: 2px solid #f2f2f2;
-  height: 50px;
-  border-radius: 30px;
-  margin-right: 20px;
+  display: flex;
+  width: 100%;
 }
-.filtreIcText:hover > .filtreText
+.categories i
 {
-  color: #0065fc;
+  background-color: #DEEBFF;
 }
-.filtreIcText:hover > .filtreIc
+.filtre
+{
+  width: auto;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #F2F2F2;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.filtre h3
+{
+  padding: 20px;
+}
+.filtreIc
+{
+  display: flex;
+  border: 15px solid #DEEBFF;
+  border-radius: 100px;
+  color: #0065FC;
+  position: relative;
+  right: 2px;
+}
+.filtre:hover
 {
   color: white;
   background-color: #0065fc;
 }
-.filtreText
-{
-  height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  font-weight: bold;
-}
-.filtreIc
-{
-  margin-left: -2px;
-  border-radius: 25px;
-  width: 52px;
-  height: 52px;
-  color: #0065fc;
-  background-color: #deebff;
-}
-/*3-info*/
+/*Info*/
 .info
+{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.infoCont
 {
   display: flex;
   align-items: center;
 }
-.infoIc
+.infoCont i
 {
-  width: 20px;
-  height: 20px;
-  border: 2px solid #f2f2f2;
-  border-radius: 25px;
-  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  border: 3px solid #F2F2F2;
+  background-color: white;
+  color: #0065FC;
+  border-radius: 100%;
 }
 /*Main*/
 #HebPop
@@ -487,28 +501,34 @@ border-radius: 20px 20px 0 0;
   border-radius: 20px 20px 0 0;
 }/*mettre la meme proportion que sur la maquette pour les act2,3 et 4,6*/
 /*Footer*/
-.footer
+footer
 {
-  height: 300px;
-  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
-.sizeBlocFooter
+.footerCont
 {
-  height: 150px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 20px;
 }
-.margeLeft
+.footerListe ul
 {
-  margin-left: 5%;
+  list-style-type: none;
+  padding: 0;
 }
-.margeRight
+.footerListe ul li
 {
-  margin-right: 15%;
+  padding-bottom: 10px;
 }
-.lienFooter
+.footerListe ul li a
 {
+  text-decoration-line: none;
   color: black;
-}
-.divLienFooter
-{
-  height: 30px;
+  padding-bottom: 10px;
 }
