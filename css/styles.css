@@ -409,7 +409,7 @@ header
 .act1Cont img, .act4Cont img
 {
   width: 100%;
-  height: 35vw;
+  height: 600px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -424,7 +424,7 @@ header
 .act2_3 .act2
 {
   width: 100%;
-  height: 55%;
+  height: 50%;
   text-decoration: none;
   color: black;
   border-radius: 15px;
@@ -438,14 +438,14 @@ header
 .act2Cont img
 {
   width: 100%;
-  height: 17vw;
+  height: 260px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
 .act2_3 .act3
 {
   width: 100%;
-  height: 35%;
+  height: 40%;
   text-decoration-line: none;
   color: black;
   border-radius: 20px;
@@ -455,7 +455,7 @@ header
 .act3Cont img
 {
   width: 100%;
-  height: 9vw;
+  height: 200px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
@@ -469,7 +469,7 @@ header
 .act5_6 .act5
 {
   width: 100%;
-  height: 55%;
+  height: 40%;
   text-decoration-line: none;
   color: black;
   border-radius: 20px;
@@ -479,14 +479,14 @@ header
 .act5Cont img
 {
 width: 100%;
-height: 17vw;
+height: 200px;
 object-fit: cover;
 border-radius: 20px 20px 0 0;
 }
 .act5_6 .act6
 {
   width: 100%;
-  height: 35%;
+  height: 50%;
   text-decoration-line: none;
   color: black;
   border-radius: 20px;
@@ -496,7 +496,7 @@ border-radius: 20px 20px 0 0;
 .act6Cont img
 {
   width: 100%;
-  height: 9vw;
+  height: 260px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }/*mettre la meme proportion que sur la maquette pour les act2,3 et 4,6*/
