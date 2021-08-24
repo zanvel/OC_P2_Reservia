@@ -8,46 +8,38 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/426f51973a.js" crossorigin="anonymous"></script>
-        <link rel="normalize" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
         <title>Reservia</title>
     </head>
     <body>
-        <nav class="sizeNav">
-            <div class="flex-between">
-                <div>
-                    <img class="margeLogo"
-                    src="images/logo/Reservia@3x.png" 
-                    alt="logo reservia"
-                    width="120px"
-                    height="50px">
-                </div>
-                <div class="sizeLiens flex-around">
-                    <div class="boxLien flex-center borderNav">
-                        <a class="colorLien decoration-none" href="#hebergements">Hébergements</a>
-                    </div>
-                    <div class="boxLien flex-center borderNav">
-                        <a class="colorLien decoration-none" href="#activites">Activités</a>
-                    </div>
-                    <div class="boxLien flex-center borderNav">
-                        <a class="bold colorBleuF bold decoration-none" href="#inscription">S'inscrire</a>
-                    </div>    
-                </div>  
-            </div>
-        </nav>
         <header>
-            <section>
-                <div>     
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
+            <div id="reservia">
+                <div id=logo>
+                    <a href="index.html" class="logo">
+                        <img class="logo" src="images\logo\Reservia.svg" alt="logo Reservia">
+                    </a>
                 </div>
-                <div class="searchBar flex-center">
-                    <div class="IcSize bgGris flex-center"><i class="fas fa-map-marker-alt"></i></div>
-                    <input class="search flex-center borderN paddingSearch" type="search" value="Marseille, France"/>
-                    <button class="bgBleuF bold colorGris flex-center searchButton borderN">Rechercher</button>
-                </div>
+                <nav>
+                    <ul>
+                        <li><a class="hebergements" href="#hebergements">Hébergements</a></li>
+                        <li><a class="activites" href="#activites">Activités</a></li>
+                    </ul>
+                    <div id="inscription">
+                        <a href="#" id="inscrip">s'inscrire</a>
+                    </div>
+                </nav>
+            </div>
+            <h2 id="titre">Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p class="lieu">En plein centre ville ou en pleine nature</p>
+        </header>
+            <div class="barreRech">
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <input class="champ" type="search" placeholder="ville" value="Marseille, France"/>
+                <input class="rechercher" type="submit" value="Rechercher" />
+                <button class="loupe"><i class="fas fa-search"></i></button>
+            </div>
                 <div class="filtre">
-                    <div><h3 class="margeFiltreTitre bold">Filtres</h3></div>
+                    <div><h3 class="margeFiltreTitre">Filtres</h3></div>
                     <div class="flex-between filtreIcText">
                         <i class="fas fa-money-bill-wave fa-lg filtreIc flex-center"></i>
                         <div class="flex-center filtreText">Économique</div>
@@ -314,18 +306,18 @@
         <footer>
             <div class="footer bgGris flex-between">
                 <div class="margeLeft sizeBlocFooter">
-                    <h3 class="bold">A propos</h3>
-                    <div class="divLienFooter"><a href="#" class="lienFooter decoration-none">Fonctionnement du site</a></div>
+                    <h3>A propos</h3>
+                    <div class="divLienFooter"><a href="#" class="lienFooter ">Fonctionnement du site</a></div>
                     <div class="divLienFooter"><a href="#" class="lienFooter decoration-none">Conditions générales de ventes</a></div>
                     <div class="divLienFooter"><a href="#" class="lienFooter decoration-none">Données et confidentialité</a></div>
                 </div>
                 <div class="sizeBlocFooter">
-                    <h3 class="bold">Nos hébergements</h3>
+                    <h3>Nos hébergements</h3>
                     <div class="divLienFooter"><a href="#" class="lienFooter decoration-none">Charte qualité</a></div>
                     <div class="divLienFooter"><a href="#" class="lienFooter decoration-none">Soumettre votre hôtel</a></div>
                 </div>
                 <div class="margeRight sizeBlocFooter">
-                    <h3 class="bold">Assistance</h3>
+                    <h3>Assistance</h3>
                     <div class="divLienFooter"><a href="#" class="lienFooter decoration-none">Centre d'aide</a></div>
                     <div class="divLienFooter"><a href="#" class="lienFooter decoration-none">Nous contacter</a></div>
                 </div>

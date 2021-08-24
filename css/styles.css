@@ -3,11 +3,6 @@
 {
   font-family: 'Raleway', sans-serif;
 }
-body
-{
-  margin-left: auto;
-  margin-right: auto;
-}
 .flex-center
 {
   display:flex;
@@ -84,44 +79,50 @@ justify-content: space-around;
 }
 
 /*Nav*/
-.sizeNav
+#reservia
 {
-  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.sizeLiens
+nav
 {
-  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.boxLien
+nav ul
 {
-  width: 140px;
-  height: 99px; 
+  display: flex;
+  list-style-type: none;
+  margin: 0;
 }
-.colorLien
+.hebergements, .activites
 {
-  color:black
-}
-.borderNav
-{
-  border-top: solid 1px transparent;
-}
-.borderNav:hover
-{
-  border-top: solid 1px #0065fc;
-  cursor: pointer;
-}
-.borderNav:hover > a
-{
-  color: #0065fc;
-}
-.decoration-none
-{
+  padding: 20px;
+  margin-right: 15px;
   text-decoration: none;
+  color: black;
 }
-.margeLogo
+#inscrip
 {
-  margin-bottom: 7px;
-  padding-left: 20px;
+  text-decoration-line: none;
+  padding: 20px;
+  color: #0065FC;
+  font-weight: bold;
+}
+nav li a:hover
+{
+  color: #0065FC;
+  border-top: 2px solid #0065FC;
+}
+.Titre
+{
+  margin-top: 0;
+}
+.lieu
+{
+  margin-top: 16px;
 }
 /*Header*/
 header
@@ -129,40 +130,42 @@ header
   padding-left: 20px;
 }
 /*1-Barre de recherche*/
-.searchBar 
+.barreRech
 {
-  width: 400px;
-  border-radius: 10px;
-  border: 1px solid #f2f2f2;}
-.IcSize
-{
-  height: 50px;
-  width: 50px;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
+  display: flex;
+  margin-bottom: 15px;
 }
-.paddingSearch
+.barreRech span i
 {
-  padding-left: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 17px;
+  background-color: #F2F2F2;
 }
-.search
+.champ
 {
-  height: 50px;
-  width: 230px;
-  font-size: 18px;
-  color: black;
+  padding: 10px;
+  border: 2px solid  #F2F2F2;
   font-weight: bold;
+  font-size: 1.1em;
 }
-.searchButton
+.rechercher
 {
-  height: 50px;
+  border: 1px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
   width: 120px;
   cursor: pointer;
-  color: white;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
-.searchButton:hover
+.loupe
+{
+  display: none;
+}
+.rechercher:hover
 {
   color: #0065fc;
   background-color: #f2f2f2;
@@ -509,6 +512,3 @@ border-radius: 20px 20px 0 0;
 {
   height: 30px;
 }
-/*seseion mentorat
-pour les espaces utilise rem avec padding
-mettre les images en html et object-fit ?cover? pour les préparer */
