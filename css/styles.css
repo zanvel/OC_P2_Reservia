@@ -276,9 +276,9 @@ header
 .hebCont
 {
   display: flex;
-  justify-content: space-around;
-   flex-wrap: wrap;
-   font-size: 1em;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 1em;
 }
 .hebCont figure
 {
