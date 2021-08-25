@@ -3,74 +3,14 @@
 {
   font-family: 'Raleway', sans-serif;
 }
-.flex-center
-{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-.flex-around
-{
-display:flex;
-justify-content: space-around;
-align-items: center;
-}
-.flex-between
-{
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.flex-col-center
-{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.flex-col-around
-{
-display:flex;
-flex-direction: column;
-justify-content: space-around;
-}
-.flex-col-between
-{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.flex-wrap
-{
-  flex-wrap: wrap;
-}
+
 .colorBleuF
 {
   color: #0065fc;
 }
-.colorBleuC
-{
-  color: #deebff;
-}
 .colorGris
 {
   color: #f2f2f2;
-}
-.bgBleuF
-{
-  background-color: #0065fc;
-}
-.bgBleuC
-{
-  background-color: #deebff;
-}
-.bgGris
-{
-  background-color: #f2f2f2;
-}
-.borderN
-{
-  border: none;
 }
 #HebPop, #activites
 {
