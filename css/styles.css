@@ -218,7 +218,6 @@ header
 }
 .popCont
 {
-  height: 85%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -236,6 +235,7 @@ header
   justify-content: center;
   text-decoration-line: none;
   color: black;
+  padding-top: 5%;
 }
 .popCartes
 {
@@ -343,8 +343,7 @@ header
   color: black;
   width: 22%;
   border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px #F2F2F2;
-  border: 4px solid #f2f2f2;
+  box-shadow: 3px 6px 13px 0px #F2F2F2;
 }
 .act1Cont img, .act4Cont img
 {
@@ -368,8 +367,7 @@ header
   text-decoration: none;
   color: black;
   border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px #F2F2F2;
-  border: 4px solid #f2f2f2;
+  box-shadow: 3px 6px 13px 0px #F2F2F2;
 }
 .act2Cont, .act3Cont, .act5Cont, .act6Cont
 {
@@ -389,8 +387,7 @@ header
   text-decoration-line: none;
   color: black;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px 2px #F2F2F2;
-  border: 2px solid #F2F2F2;
+  box-shadow: 3px 6px 13px 0px #F2F2F2;
 }
 .act3Cont img
 {
@@ -413,8 +410,7 @@ header
   text-decoration-line: none;
   color: black;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px 2px #F2F2F2;
-  border: 2px solid #F2F2F2;
+  box-shadow: 3px 6px 13px 0px #F2F2F2;
 }
 .act5Cont img
 {
@@ -430,8 +426,7 @@ border-radius: 20px 20px 0 0;
   text-decoration-line: none;
   color: black;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px 2px #F2F2F2;
-  border: 2px solid #F2F2F2;
+  box-shadow: 3px 6px 13px 0px #F2F2F2;
 }
 .act6Cont img
 {
