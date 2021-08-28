@@ -3,7 +3,12 @@
 {
   font-family: 'Raleway', sans-serif;
 }
+body
+{
+  width: 1440px;
+  margin: 0 auto;
 
+}
 .colorBleuF
 {
   color: #0065fc;
@@ -466,4 +471,217 @@ footer
   text-decoration-line: none;
   color: black;
   padding-bottom: 10px;
+}
+/*resize des textes, les medias querries largeur fixe*/
+/*Pour les smartphones de max 560px*/
+@media screen and (max-width: 560px)
+{
+  body
+  {
+    margin: 0;
+  }
+  #reservia
+  {
+    display: block;
+  }
+  header, main
+  {
+    padding: 0;
+  }
+  .barreRech, #filtres, .info
+  {
+    padding-left: 0;
+  }
+  #logo
+  {
+    width: 35%;
+    padding-left: 10px;
+  }
+  nav ul
+  {
+    padding: 20px 0 20px 0;
+    justify-content: space-around;
+    border-bottom: 2px solid #F2F2F2;
+  }
+  nav li a:hover
+  {
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+  }
+  #inscription
+  {
+    position: absolute;
+    top: 39px;
+    right: 10px;
+  }
+  #inscrip
+  {
+    padding: 0;
+  }
+  #titre
+  {
+    margin-top: 25px;
+    font-size: 1.3em;
+    padding: 0 15px 0 15px;
+  }
+  .lieu
+  {
+    font-size: 1em;
+    padding-left: 15px;
+  }
+  .barreRech
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .rechercher
+  {
+    display: none;
+  }
+  .loupe
+  {
+    display: flex;
+    border-radius: 15px;
+    border: 1px;
+    padding: 0;
+    position: relative;
+    right: 8px;
+  }
+  i.fas.fa-search
+  {
+    color: white;
+    background-color: #0065FC;
+    padding: 16px;
+    border-radius: 14px;
+    font-size: 17px;
+  }
+  .champ
+  {
+    border-right: 0;
+    font-size: 1em;
+  }
+  #filtres
+  {
+    padding-left: 10px;
+  }
+  .filBarre
+  {
+    flex-wrap: wrap;  
+  }
+  .filTitre
+  {
+    margin-bottom: 20px;
+  }
+  .categories
+  {
+    flex-wrap: wrap;
+  }
+  .HebPop
+  {
+    flex-direction: column;
+  }
+  .info
+  {
+    padding-left: 10px;
+  }
+  #populaires
+  {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0;
+    margin-left: 0;
+  }
+  .popTitre
+  {
+    width: 100%;
+    padding: 0;
+    justify-content: space-around;
+  }
+  .popCont
+  {
+    font-size: 0.85em;
+    width: 100%;
+  }
+  .popCont a
+  {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .popCartes
+  {
+    width: 85%;
+  }
+  #hebergements
+  {
+    width: 100%;
+    background-color: white;
+  }
+  #hebergements .hebTitre
+  {
+    padding: 0 0 0 20px;
+  }
+  .hebTitre h2
+  {
+    font-size: 1.3em;
+    margin: 25px 0 20px 0;
+  }
+  .hebCont
+  {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .hebCont a
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .hebCont img
+  {
+    height: 35vw;
+  }
+  .hebCartes
+  {
+    border: 3px solid #F2F2F2;
+    box-shadow: 6px 6px 6px #f2f2f2;
+  }
+  #hebergements .afficher_plus
+  {
+    padding: 0 0 10px 20px;
+  }
+  .actCont
+  {
+    flex-direction: column;
+    height: 120%;
+    align-items: center;
+  }
+  .actTitre
+  {
+    margin: 0 0 0 18px;
+  }
+  .actCont .act1Cont,.act2Cont,.act3Cont, .act4Cont ,.act5Cont, .act6Cont
+  {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  .actCont img
+  {
+    height: 35vw;
+  }
+  .actCont h4
+  {
+    padding-left: 10px;
+  }
+  footer
+  {
+    margin-top: 40px;
+  }
+  .footerCont
+  {
+    display: block;
+    margin-left: 20px;
+  }
 }
