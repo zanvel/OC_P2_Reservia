@@ -5,9 +5,8 @@
 }
 body
 {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
-
 }
 .colorBleuF
 {
@@ -439,7 +438,7 @@ border-radius: 20px 20px 0 0;
   height: 260px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
-}/*mettre la meme proportion que sur la maquette pour les act2,3 et 4,6*/
+}
 /*Footer*/
 footer
 {
@@ -474,15 +473,23 @@ footer
 }
 /*resize des textes, les medias querries largeur fixe*/
 /*Pour les smartphones de max 560px*/
-@media screen and (max-width: 560px)
-{
+@media screen and (max-width: 560px){
   body
   {
     margin: 0;
   }
+  nav
+  {
+    display: inline-flex;
+  }
   #reservia
   {
     display: block;
+    width: 100%;
+  }
+  header
+  {
+  width: 100%;
   }
   header, main
   {
@@ -509,20 +516,11 @@ footer
     border-bottom: 2px solid #0065FC;
     border-top: none;
   }
-  #inscription
-  {
-    position: absolute;
-    top: 39px;
-    right: 10px;
-  }
-  #inscrip
-  {
-    padding: 0;
-  }
+
   #titre
   {
     margin-top: 25px;
-    font-size: 1.3em;
+    font-size: 13px;
     padding: 0 15px 0 15px;
   }
   .lieu
@@ -530,10 +528,12 @@ footer
     font-size: 1em;
     padding-left: 15px;
   }
+  /*Barre de recherche max 560px*/
   .barreRech
   {
     display: flex;
-    justify-content: center;
+    align-content: flex-start;
+    padding-left: 10px;
   }
   .rechercher
   {
@@ -561,58 +561,36 @@ footer
     border-right: 0;
     font-size: 1em;
   }
-  #filtres
-  {
-    padding-left: 10px;
-  }
+  /*filtres 560p max*/
   .filBarre
   {
-    flex-wrap: wrap;  
+  display: table-caption;
   }
-  .filTitre
-  {
-    margin-bottom: 20px;
-  }
-  .categories
-  {
-    flex-wrap: wrap;
-  }
-  .HebPop
+ .categories
+ {
+   flex-wrap: wrap;
+ }
+  /* hébergements et populaires 560px max*/
+  #HebPop
   {
     flex-direction: column;
+    align-items: flex-start;
   }
-  .info
-  {
-    padding-left: 10px;
-  }
-  #populaires
-  {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 0;
-    margin-left: 0;
-  }
+  /*Populaires 560px max*/
   .popTitre
   {
-    width: 100%;
     padding: 0;
     justify-content: space-around;
   }
   .popCont
   {
     font-size: 0.85em;
-    width: 100%;
   }
   .popCont a
   {
-    width: 100%;
     margin-bottom: 15px;
   }
-  .popCartes
-  {
-    width: 85%;
-  }
+  /*hébergements 5609x max*/
   #hebergements
   {
     width: 100%;
@@ -634,13 +612,12 @@ footer
   }
   .hebCont a
   {
-    width: 100%;
     display: flex;
     justify-content: center;
   }
   .hebCont img
   {
-    height: 35vw;
+    height: 140px;
   }
   .hebCartes
   {
@@ -651,25 +628,24 @@ footer
   {
     padding: 0 0 10px 20px;
   }
+  /*activités 560px max*/
   .actCont
   {
     flex-direction: column;
     height: 120%;
-    align-items: center;
+    align-items: flex-start;
   }
   .actTitre
   {
     margin: 0 0 0 18px;
   }
-  .actCont .act1Cont,.act2Cont,.act3Cont, .act4Cont ,.act5Cont, .act6Cont
+  .act1,.act2,.act3,.act4,.act5,.act6
   {
-    width: 90%;
     margin-bottom: 25px;
   }
-
   .actCont img
   {
-    height: 35vw;
+    height: 140px;
   }
   .actCont h4
   {
@@ -685,3 +661,4 @@ footer
     margin-left: 20px;
   }
 }
+/*modifier les width 100%*/
