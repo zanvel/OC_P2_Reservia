@@ -731,7 +731,6 @@ footer
   .filtre
   {
     width: 200px;
-    padding: 0 0 15px 25px;
   }
   /*populaires tablettes*/
   #populaires 
@@ -832,6 +831,10 @@ footer
   .actCont .act1, .actCont .act2_3,.actCont .act4, .actCont .act5_6
   {
     width: 90%;
+    margin-bottom: 20px;
+  }
+  .act2_3 .act2, .act5_6 .act5
+  {
     margin-bottom: 20px;
   }
   /*Footer tablettes*/
