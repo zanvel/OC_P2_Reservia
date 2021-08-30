@@ -5,7 +5,7 @@
 }
 body
 {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .colorBleuF
@@ -471,8 +471,7 @@ footer
   color: black;
   padding-bottom: 10px;
 }
-/*resize des textes, les medias querries largeur fixe*/
-/*Pour les smartphones de max 560px*/
+/*Pour les smartphones*/
 @media screen and (max-width: 560px){
   body
   {
@@ -530,7 +529,7 @@ footer
     font-size: 1em;
     padding-left: 15px;
   }
-  /*Barre de recherche max 560px*/
+  /*Barre de recherche mobiles*/
   .barreRech
   {
     display: flex;
@@ -562,7 +561,7 @@ footer
     border-right: 0;
     font-size: 1em;
   }
-  /*filtres 560p max*/
+  /*filtres mobiles*/
   #filtres
   {
     padding-left: 10px;
@@ -589,12 +588,12 @@ footer
   {
     padding-left: 10px;
   }
-  /* hébergements et populaires 560px max*/
+  /* hébergements et populaires mobiles*/
   #HebPop
   {
     flex-direction: column;
   }
-  /*Populaires 560px max*/
+  /*Populaires mobiles*/
   #populaires
   {
     width: 100%;
@@ -623,7 +622,7 @@ footer
   {
     width: 85%;
   }
-  /*hébergements 560px max*/
+  /*hébergements mobiles*/
   #hebergements
   {
     width: 100%;
@@ -662,7 +661,7 @@ footer
   {
     padding: 0 0 10px 20px;
   }
-  /*activités 560px max*/
+  /*activités mobiles*/
   .actCont
   {
     flex-direction: column;
@@ -696,4 +695,152 @@ footer
     margin-left: 20px;
   }
 }
-/*modifier les width 100%*/
+/*Tablettes*/
+@media screen and (min-width: 561px) and (max-width: 1126px)
+{
+  body
+  {
+    margin: 0;
+  }
+  header
+  {
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+  main
+  {
+    padding: 0;
+  }
+  .barreRech, #filtres
+  {
+    padding-left: 0;
+  }
+  nav ul
+  {
+    padding-left: 0;
+  }
+  .hebergements,.activites,#inscrip
+  {
+    padding: 10px;
+  }
+  /*filtres tablettes*/
+  .filBarre,.categories
+  {
+    display: block;
+  }
+  .filtre
+  {
+    width: 200px;
+    padding: 0 0 15px 25px;
+  }
+  /*populaires tablettes*/
+  #populaires 
+  {
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-left: 0;
+    border-radius: 0;
+    margin-bottom: 40px;
+  }
+  .popTitre
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .popTitre h2
+  {
+    margin-left: 20px;
+  }
+  .popTitre i
+  {
+    margin-right: 20px;
+  }
+  .popCont a
+  {
+    margin-bottom: 50px;
+  }
+  .popCartes
+  {
+    display: block;
+    width: 95%;
+  }
+  .popCont img
+  {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 15px 15px 0 0;
+  }
+  .popCont .cartesEtoiles
+  {
+    font-size: 1.3em;
+    font-display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  /*Hébergements tablettes*/
+  #hebergements
+  {
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-bottom: 40px;
+    border-radius: 0;
+  }
+  .hebCont
+  {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 0.85em;
+  }
+  .hebCont a
+  {
+    width: 35%;
+    text-decoration-line: none;
+    color: black;
+  }
+  .hebCont img
+  {
+    height: 90px;
+  }
+  .hebCont .afficher_plus
+  {
+    padding: 0 0 0 20px;
+  }
+  /*Activités tablettes*/
+  #activites
+  {
+    width: 95%;
+  }
+  .actTitre
+  {
+    padding-left: 20px;
+  }
+  .actCont
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .actCont img
+  {
+    height: 180px;
+  }
+  .actCont .act1, .actCont .act2_3,.actCont .act4, .actCont .act5_6
+  {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  /*Footer tablettes*/
+  footer
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85em;
+    padding: 0 15px 0 15px;
+  }
+}
