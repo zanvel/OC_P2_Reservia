@@ -478,20 +478,11 @@ footer
   {
     margin: 0;
   }
-  nav
-  {
-    display: inline-flex;
-  }
   #reservia
   {
     display: block;
-    width: 100%;
   }
-  header
-  {
-  width: 100%;
-  }
-  header, main
+  header,main
   {
     padding: 0;
   }
@@ -503,10 +494,12 @@ footer
   {
     width: 35%;
     padding-left: 10px;
+    padding-top: 10px;
   }
   nav ul
   {
     padding: 20px 0 20px 0;
+    width: 100%;
     justify-content: space-around;
     border-bottom: 2px solid #F2F2F2;
   }
@@ -516,11 +509,20 @@ footer
     border-bottom: 2px solid #0065FC;
     border-top: none;
   }
-
+  #inscription
+  {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  #inscrip
+  {
+    padding: 0;
+  }
   #titre
   {
     margin-top: 25px;
-    font-size: 13px;
+    font-size: 1.3em;
     padding: 0 15px 0 15px;
   }
   .lieu
@@ -532,8 +534,7 @@ footer
   .barreRech
   {
     display: flex;
-    align-content: flex-start;
-    padding-left: 10px;
+    justify-content: center;
   }
   .rechercher
   {
@@ -562,35 +563,67 @@ footer
     font-size: 1em;
   }
   /*filtres 560p max*/
+  #filtres
+  {
+    padding-left: 10px;
+  }
   .filBarre
   {
-  display: table-caption;
+    flex-wrap: wrap;
+    margin-top: 0;
   }
- .categories
- {
-   flex-wrap: wrap;
- }
+  .filTitre
+  {
+    margin-bottom: 20px;
+  }
+  .categories
+  {
+    flex-wrap: wrap;
+  }
+  .filtre
+  {
+    width: auto;
+    margin: 0 7px 10px 0;
+  }
+  .info
+  {
+    padding-left: 10px;
+  }
   /* hébergements et populaires 560px max*/
   #HebPop
   {
     flex-direction: column;
-    align-items: flex-start;
   }
   /*Populaires 560px max*/
+  #populaires
+  {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0;
+    margin-left: 0;
+  }
   .popTitre
   {
+    width: 100%;
     padding: 0;
     justify-content: space-around;
   }
   .popCont
   {
     font-size: 0.85em;
+    width: 100%;
   }
   .popCont a
   {
+    width: 100%;
     margin-bottom: 15px;
   }
-  /*hébergements 5609x max*/
+  .popCartes
+  {
+    width: 85%;
+  }
+  /*hébergements 560px max*/
   #hebergements
   {
     width: 100%;
@@ -612,12 +645,13 @@ footer
   }
   .hebCont a
   {
+    width: 100%;
     display: flex;
     justify-content: center;
   }
   .hebCont img
   {
-    height: 140px;
+    height: 180px;
   }
   .hebCartes
   {
@@ -633,19 +667,20 @@ footer
   {
     flex-direction: column;
     height: 120%;
-    align-items: flex-start;
+    align-items: center;
   }
   .actTitre
   {
     margin: 0 0 0 18px;
   }
-  .act1,.act2,.act3,.act4,.act5,.act6
+  .actCont .act1,.actCont .act2_3,.actCont .act4,.actCont .act5_6
   {
+    width: 90%;
     margin-bottom: 25px;
   }
   .actCont img
   {
-    height: 140px;
+    height: 180px;
   }
   .actCont h4
   {
