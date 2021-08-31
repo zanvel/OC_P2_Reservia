@@ -223,7 +223,6 @@ header
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding-top: 20px;
 }
 .popTitre i
 {
@@ -319,7 +318,7 @@ header
 }
 #hebergements .hebTitre
 {
-  padding: 20px 0 10px 25px;
+  padding: 0 0 10px 25px;
 }
 #hebergements .afficher_plus
 {
@@ -786,7 +785,6 @@ footer
   .popCont .cartesEtoiles
   {
     font-size: 1.3em;
-    font-display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
