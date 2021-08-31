@@ -34,11 +34,12 @@ p
   font-size: 16px;
 }
 /*Nav*/
-#reservia
+.reservia
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
 nav
 {
@@ -487,7 +488,7 @@ footer
   {
     margin: 0;
   }
-  #reservia
+  .reservia
   {
     display: block;
   }
